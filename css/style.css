@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(120deg, rgb(250, 147, 100), rgb(243, 186, 79));
+    
+    align-items: center;
+
+}
+h1{
+    padding-top: 5rem;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+form{
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+}
+.btn1{
+    color: tomato;
+    background: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: white;
+    background: tomato;
+}
+.card{
+    min-width: 30%;
+    list-style: none;
+    align-items:center;
+}
+.card-body{
+    background: white;
+    margin: 0.5rem;
+    width: 28rem;
+    align-items: center;
+    margin-left: 28.5rem;
+    color: black;
+
+    
+}
+.card-body h5{
+    padding: 5px;
+    font-size: 1em;
+    
+}
+.card-body h6{
+    font-size: 1.5em;
+    padding-left: 5px;
+    color: #7c7a7a;
+
+}
+.card-body button{
+    color:white;
+    font-size: 1em;
+    border: none;
+    background:tomato;
+    padding: .3em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.card-body button:hover{
+    color: tomato;
+    background: rgb(250, 183, 95);
+}
+.no{
+    text-align: center;
+    color: white;
+}
